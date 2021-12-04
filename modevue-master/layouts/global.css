@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Neue';
+  src: local('Neue'),
+    url(~assets/fonts/LinotypeNeueHaasUnicaPro.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Eurostile';
+  src: local('Eurostile'), url(~assets/fonts/Eurostib.TTF) format('truetype');
+}
+
+html {
+  font-family: 'Neue';
+}
