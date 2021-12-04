@@ -353,7 +353,7 @@
 }
 .CommunityText {
   font-family: Neue;
-  font-size: 21px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: 30px;

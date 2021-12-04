@@ -133,8 +133,9 @@
 }
 @media all and (max-width: 960px) {
   .HowItWorksTitle {
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
+    font-size: 65px !important;
   }
   .leftBanner {
     font-size: 3.5em !important;
@@ -147,14 +148,14 @@
   .CommunityLeft p {
     font-size: 48px !important;
   }
-  .HowItWorksTitle {
-    font-size: 50px !important;
-  }
   .HowItWorksWrap {
-    background-color: #231f20;
+    background-image: url(~assets/imgs/HowIsWorkBGMobile.png) !important;
     padding: 20px !important;
-    background-image: none !important;
     margin-left: 0 !important;
+  }
+  .highlightImage {
+    height: 435px !important;
+    background-image: url(~assets/imgs/HighlighImageMobile.png) !important;
   }
 }
 .infinityForce {
@@ -168,7 +169,7 @@
 }
 .infinityForceSubtext {
   font-family: Neue;
-  font-size: 21px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: 30px;
@@ -285,7 +286,7 @@
 }
 .HowImgTitle {
   font-family: Eurostile;
-  font-size: 40px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 900;
   line-height: 42px;
@@ -301,8 +302,9 @@
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0em;
-  text-align: left;
+  text-align: center;
   color: #ffffff;
+  padding: 0 20px;
 }
 
 .CommunitySection {
@@ -334,7 +336,7 @@
 }
 .CommunityText {
   font-family: Neue;
-  font-size: 21px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: 30px;
@@ -403,7 +405,7 @@
   }
 
   .IntroSection {
-    padding: 300px 10px 0px 10px;
+    padding: 30px 10px 0px 10px;
   }
 
   .IntroSectionText {
@@ -424,7 +426,7 @@
   }
 
   .CommunityLeft {
-    padding: 100px 50px 100px 0px !important;
+    padding: 10px 50px 10px 0px !important;
   }
 
   .Community {

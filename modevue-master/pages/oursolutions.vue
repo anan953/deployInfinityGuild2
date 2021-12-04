@@ -213,7 +213,7 @@
 }
 .CommunityText {
   font-family: Neue;
-  font-size: 21px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: 30px;
@@ -277,7 +277,7 @@
   }
 
   .CommunityLeft {
-    padding: 100px 50px 100px 0px !important;
+    padding: 10px 50px 10px 0px !important;
   }
 
   .Community {
