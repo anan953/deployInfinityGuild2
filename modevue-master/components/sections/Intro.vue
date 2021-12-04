@@ -53,11 +53,9 @@
     <v-row no-gutters class="HowItWorks">
       <div class="HowItWorksWrap">
         <v-row no-gutters class="HowItWorksTitle">
-          <div>
-            <span> >>>>> </span>
-            <span> Product & Services </span>
-            <span> &lt;&lt;&lt;&lt;&lt; </span>
-          </div>
+          <span> >>>>> </span>
+          <span> HOW IT WORKS </span>
+          <span> &lt;&lt;&lt;&lt;&lt; </span>
         </v-row>
 
         <v-row no-gutters>
@@ -123,41 +121,6 @@
 </template>
 
 <style scoped>
-@media all and (min-width: 960px) {
-  .IntroSectionLeft {
-    padding-right: 17px;
-  }
-  .IntroSectionRight {
-    padding-left: 17px;
-  }
-}
-@media all and (max-width: 960px) {
-  .HowItWorksTitle {
-    display: flex !important;
-    flex-direction: column !important;
-    font-size: 65px !important;
-  }
-  .leftBanner {
-    font-size: 3.5em !important;
-  }
-  .infinityForce {
-    padding: 0 !important;
-    background-color: #ff8b00 !important;
-    background-image: none !important;
-  }
-  .CommunityLeft p {
-    font-size: 48px !important;
-  }
-  .HowItWorksWrap {
-    background-image: url(~assets/imgs/HowIsWorkBGMobile.png) !important;
-    padding: 20px !important;
-    margin-left: 0 !important;
-  }
-  .highlightImage {
-    height: 435px !important;
-    background-image: url(~assets/imgs/HighlighImageMobile.png) !important;
-  }
-}
 .infinityForce {
   height: 976px;
   width: 100%;
@@ -334,17 +297,6 @@
   flex-direction: column;
   padding: 20px 50px !important;
 }
-.CommunityText {
-  font-family: Neue;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 30px;
-  letter-spacing: 0px;
-  text-align: left;
-  color: #fff;
-  margin: 80px 0;
-}
 
 .bigButton {
   height: 80px;
@@ -410,6 +362,7 @@
 
   .IntroSectionText {
     margin-bottom: 30px;
+    font-size: 19px !important;
   }
 
   .HowItWorksWrap {
@@ -418,7 +371,7 @@
 
   .ImgSection {
     padding: 0 !important;
-    margin-bottom: 100px !important;
+    margin-bottom: 60px !important;
   }
 
   .HowItWorks {
@@ -435,6 +388,56 @@
 
   .CommunitySection {
     padding: 10px 20px 80px 20px;
+  }
+}
+@media all and (min-width: 960px) {
+  .IntroSectionLeft {
+    padding-right: 17px;
+  }
+  .IntroSectionRight {
+    padding-left: 17px;
+  }
+}
+@media all and (max-width: 600px) {
+  .HowItWorksTitle {
+    font-size: 38px !important;
+    letter-spacing: 0px !important;
+    line-height: 57px !important;
+  }
+  .leftBanner {
+    font-size: 3.5em !important;
+    line-height: 55px !important;
+  }
+  .infinityForce {
+    padding: 20px 0 !important;
+    background-color: #ff8b00 !important;
+    background-image: none !important;
+    height: auto !important;
+  }
+  .IntroSectionTitle {
+    font-size: 3em !important;
+    line-height: 44px !important;
+    margin-bottom: 50px !important;
+  }
+  .CommunityLeft p {
+    font-size: 58px !important;
+    line-height: 51px !important;
+  }
+  .HowItWorksWrap {
+    background-image: url(~assets/imgs/HowIsWorkBGMobile.png) !important;
+    padding: 20px !important;
+    margin-left: 0 !important;
+  }
+  .highlightImage {
+    height: 435px !important;
+    background-image: url(~assets/imgs/HighlighImageMobile.png) !important;
+  }
+  .infinityForceSubtext {
+    margin: 40px 0 !important;
+  }
+  .CommunityText {
+    font-size: 18px;
+    margin: 30px 0 50px 0;
   }
 }
 </style>

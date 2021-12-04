@@ -25,7 +25,8 @@
     </v-row>
 
     <v-row no-gutters class="aboutPhotoSection">
-      <img src="~assets/imgs/aboutPhoto.png" />
+      <img class="aboutPhoto" src="~assets/imgs/aboutPhoto.png" />
+      <img class="aboutPhotoMobile" src="~assets/imgs/aboutPhotoMobile.png" />
     </v-row>
     <!-- Our mission section -->
     <v-row no-gutters class="ourMission">
@@ -79,15 +80,8 @@
 </template>
 
 <style scoped>
-@media all and (max-width: 960px) {
-  .ourMission {
-    padding: 0 !important;
-  }
-  .ourMissionWrap {
-    background-image: none !important;
-    background-color: #fff;
-    padding: 20px !important;
-  }
+.aboutPhotoMobile {
+  display: none;
 }
 .aboutSection {
   width: 100%;
@@ -142,7 +136,7 @@
   padding-right: 18px !important;
 }
 .ourVisionRight {
-  padding-left: 18px !important;
+  padding-left: 18px;
 }
 .aboutPhotoSection {
   background: #ff8b00;
@@ -248,20 +242,33 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .aboutPhotoMobile {
+    display: block;
+  }
+  .aboutPhoto {
+    display: none;
+  }
   .aboutSection {
     padding: 59px 40px 50px 40px;
   }
 
   .ourVisionTitle {
     margin-bottom: 40px;
+    font-size: 60px;
+    line-height: 53px;
   }
 
   .ourVisionText {
     margin-bottom: 40px;
+    font-size: 29px;
+    line-height: 35px;
+  }
+  ..ourVisionRightText {
+    font-size: 18px;
   }
 
   .ourVisionRight {
-    padding: 0px !important;
+    padding: 0px;
   }
 
   .ourMissionWrap {
@@ -286,6 +293,31 @@
 
   .CommunitySection {
     padding: 10px 20px 80px 20px;
+  }
+  .ourMission {
+    padding: 5px !important;
+  }
+  .ourMissionWrap {
+    background-image: url(~assets/imgs/ourMissionBGMobile.png);
+    padding: 59px;
+  }
+  .ourMissionTitle p {
+    font-size: 55px;
+    line-height: 55px;
+    padding-top: 30px;
+  }
+  .ourMissionText p {
+    font-family: Neue;
+    font-size: 18px;
+    padding-bottom: 22px;
+  }
+  .CommunityLeft p {
+    font-size: 58px;
+    line-height: 59px;
+  }
+  .CommunityText {
+    font-size: 18px;
+    margin: 20px 0 50px;
   }
 }
 </style>

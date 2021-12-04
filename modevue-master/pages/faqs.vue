@@ -174,15 +174,6 @@
 </template>
 
 <style scoped>
-@media all and (max-width: 960px) {
-  .question1-wrap,
-  .question2-wrap {
-    background-image: url(~assets/imgs/questionMobileBG.png) !important;
-  }
-  .CommunityLeft p {
-    font-size: 3.5em !important;
-  }
-}
 .container-pr {
   min-height: 100vh;
   background-color: #83b5d1;
@@ -406,10 +397,16 @@
 
   .Started {
     margin-bottom: 30px;
+    font-size: 27px;
+    line-height: 36px;
   }
 
   .CommunityLeft {
-    padding: 100px 50px 0px 0px !important;
+    padding: 10px 50px 10px 0px !important;
+  }
+  .CommunityText {
+    font-size: 18px;
+    margin: 20px 0 50px;
   }
 
   .Community {
@@ -418,6 +415,21 @@
 
   .CommunitySection {
     padding: 10px 20px 80px 20px;
+  }
+  .question1-wrap,
+  .question2-wrap {
+    background-image: url(~assets/imgs/questionMobileBG.png) !important;
+  }
+  .CommunityLeft p {
+    font-size: 58px;
+  }
+  .learn-more-text {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  .question-content {
+    font-size: 17px;
+    line-height: 23px;
   }
 }
 </style>
