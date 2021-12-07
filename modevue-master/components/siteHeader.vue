@@ -8,15 +8,13 @@
               <v-icon>{{ item.icon }}</v-icon>
             </v-list-item-action>
             <v-list-item-content>
-              <v-list-item-title v-text="item.title.toUpperCase()" />
+              <v-list-item-title v-text="item.title" />
             </v-list-item-content>
           </v-list-item>
           <v-list-group v-else :prepend-icon="item.icon" no-action>
             <template v-slot:activator>
               <v-list-item-content>
-                <v-list-item-title
-                  v-text="item.title.toUpperCase()"
-                ></v-list-item-title>
+                <v-list-item-title v-text="item.title"></v-list-item-title>
               </v-list-item-content>
             </template>
             <v-list-item

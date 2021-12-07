@@ -4,8 +4,8 @@
     <v-row class="infinityForce">
       <v-col md="6" sm="12" class="leftinfinityForce">
         <div class="infinityForceTitle leftBanner">
-          Play-to-Earn<br />
-          Guild <br />Management <br />for the <br />Metaverse.
+          PLAY-TO-EARN<br />
+          GUILD <br />MANAGEMENT <br />FOR THE <br />METAVERSE.
         </div>
         <div class="infinityForceSubtext">
           Infinity Force provides P2E managers and players the world’s first
@@ -21,7 +21,7 @@
     <!-- Banner section -->
     <v-row class="banner">
       <v-col md="6" cols="12" class="leftBanner">
-        Build your Play-to-Earn Gaming Guild</v-col
+        BUILD YOUR PLAY-TO-EARN GAMING GUILD</v-col
       >
       <v-col md="6" cols="12" class="rightBanner">
         Access a unified view of players' performance and revenue data with
@@ -53,9 +53,9 @@
     <v-row no-gutters class="HowItWorks">
       <div class="HowItWorksWrap">
         <v-row no-gutters class="HowItWorksTitle">
-          <span> >>>>> </span>
+          <span> >>>>> &ensp; </span>
           <span> HOW IT WORKS </span>
-          <span> &lt;&lt;&lt;&lt;&lt; </span>
+          <span>&ensp; &lt;&lt;&lt;&lt;&lt; </span>
         </v-row>
 
         <v-row no-gutters>
@@ -98,11 +98,10 @@
     </v-row>
     <!-- Community section -->
     <v-row no-gutters class="CommunitySection">
-      <v-col cols="12" md="6" class="CommunityLeft">
-        <p>JOIN A GLOBAL COMMUNITY</p>
-      </v-col>
+      <v-col cols="12" md="6" class="CommunityLeft"> </v-col>
 
       <v-col cols="12" md="6" class="Community">
+        <p class="CommunityTitle">JOIN A GLOBAL COMMUNITY</p>
         <p class="CommunityText">
           What makes play-to-earn technology so revolutionary is its ability to
           activate guilds and empower local communities from anywhere in the
@@ -165,14 +164,14 @@
 }
 
 .leftBanner {
-  font-family: Eurostile;
-  font-size: 5em;
-  font-style: normal;
   font-weight: 900;
-  line-height: 77px;
-  letter-spacing: -1px;
-  text-align: left;
+  font-size: 76px;
+  line-height: 76px;
   color: #231f20;
+  margin: 0;
+  letter-spacing: -1px;
+  font-family: Eurostile;
+  text-shadow: 3px 0 #231f20;
 }
 .rightBanner {
   font-family: Neue;
@@ -190,14 +189,14 @@
   margin-top: -1px;
 }
 .IntroSectionTitle {
-  font-family: Eurostile;
-  font-size: 3em;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 67px;
-  letter-spacing: 0px;
   text-align: center;
   color: #231f20;
+  font-weight: 900;
+  font-size: 65px;
+  line-height: 67px;
+  margin: 30px 0 49px;
+  font-family: Eurostile;
+  text-shadow: 2px 0 #231f20;
   margin-bottom: 49px;
 }
 .IntroSectionText {
@@ -248,14 +247,14 @@
   padding: 30px !important;
 }
 .HowImgTitle {
-  font-family: Eurostile;
-  font-size: 30px;
-  font-style: normal;
   font-weight: 900;
+  font-size: 42px;
   line-height: 42px;
-  letter-spacing: 0.02em;
   text-align: center;
+  letter-spacing: 0.02em;
+  margin: 10px 0 3.5px;
   color: #ff8b00;
+  font-family: Eurostile;
   margin: 15px 0 5px 0;
 }
 .HowImgText {
@@ -275,15 +274,14 @@
   padding: 10px 80px 80px 80px;
   min-height: 478px;
 }
-.CommunityLeft p {
+.CommunityTitle {
   font-family: Eurostile;
-  font-size: 82px;
-  font-style: normal;
   font-weight: 900;
-  line-height: 77px;
-  letter-spacing: 0px;
-  text-align: left;
+  font-size: 82px;
+  line-height: 76px;
   color: #231f20;
+  margin: 0;
+  text-shadow: 4px 0 #231f20;
 }
 .CommunityLeft {
   background-image: url(~assets/imgs/communityLeftBG.png);
@@ -325,16 +323,6 @@
   display: flex;
   flex-direction: column;
   padding: 20px !important;
-}
-.CommunityTitle {
-  font-family: Eurostile;
-  font-size: 82px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 77px;
-  letter-spacing: 0px;
-  text-align: left;
-  color: #231f20;
 }
 .CommunityText {
   font-family: Neue;
@@ -379,7 +367,9 @@
   }
 
   .CommunityLeft {
-    padding: 10px 50px 10px 0px !important;
+    background-image: url(~assets/imgs/communityLeftBGMobile.png);
+    width: 100%;
+    height: 500px;
   }
 
   .Community {
@@ -400,9 +390,12 @@
 }
 @media all and (max-width: 600px) {
   .HowItWorksTitle {
-    font-size: 38px !important;
-    letter-spacing: 0px !important;
-    line-height: 57px !important;
+    font-size: 38px;
+    line-height: 50px;
+  }
+  .HowImgTitle {
+    font-size: 36px;
+    line-height: 40px;
   }
   .leftBanner {
     font-size: 3.5em !important;
@@ -415,8 +408,8 @@
     height: auto !important;
   }
   .IntroSectionTitle {
-    font-size: 3em !important;
-    line-height: 44px !important;
+    font-size: 45px;
+    line-height: 52px;
     margin-bottom: 50px !important;
   }
   .CommunityLeft p {
@@ -438,6 +431,10 @@
   .CommunityText {
     font-size: 18px;
     margin: 30px 0 50px 0;
+  }
+  .CommunityTitle {
+    font-size: 58px;
+    line-height: 62px;
   }
 }
 </style>

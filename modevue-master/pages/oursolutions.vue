@@ -102,14 +102,14 @@
   margin-bottom: 36px;
 }
 .ourVisionTitle {
-  font-family: Eurostile;
-  font-size: 68px;
-  font-style: normal;
-  font-weight: bolder;
-  line-height: 77px;
-  letter-spacing: 0px;
-  text-align: left;
+  font-weight: 900;
+  font-size: 76px;
+  line-height: 76px;
+  margin: 0 0 25px;
   color: #231f20;
+  font-family: Eurostile;
+  letter-spacing: 1px;
+  text-shadow: 4px 0 #231f20;
   margin-bottom: 10px;
 }
 .ourVisionText {
@@ -160,14 +160,14 @@
   padding: 75px 100px;
 }
 .ourMissionTitle p {
-  font-family: Eurostile;
-  font-size: 70px;
-  font-style: normal;
   font-weight: 900;
-  line-height: 77px;
+  font-size: 76px;
+  line-height: 76px;
   letter-spacing: -1px;
-  text-align: left;
   color: #231f20;
+  margin: 0;
+  font-family: Eurostile;
+  text-shadow: 3px 0 #231f20;
 }
 .ourMissionText p {
   font-family: Neue;
@@ -185,16 +185,15 @@
 }
 .CommunityLeft p {
   font-family: Eurostile;
-  font-size: 6em;
-  font-style: normal;
   font-weight: 900;
-  line-height: 77px;
-  letter-spacing: 0px;
-  text-align: left;
+  font-size: 82px;
+  line-height: 76px;
   color: #231f20;
+  margin: 0;
+  text-shadow: 4px 0 #231f20;
 }
 .CommunityLeft {
-  background-image: url(~assets/imgs/communityLeftBG.png);
+  background-image: url(~assets/imgs/leftcommunityBG.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 100px 100px 100px 150px !important;

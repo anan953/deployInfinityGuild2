@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: 'Eurostile';
-  src: local('Eurostile'), url(~assets/fonts/Eurostib.TTF) format('truetype');
+  src: local('Eurostile'), url(~assets/fonts/Eurosti.TTF) format('truetype');
 }
 
 html {

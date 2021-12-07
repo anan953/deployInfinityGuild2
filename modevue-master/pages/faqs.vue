@@ -194,23 +194,23 @@
 }
 
 .learn-more-text {
-  font-family: Eurostile;
-  font-style: normal;
   font-weight: 900;
   font-size: 76px;
   line-height: 76px;
-  letter-spacing: 5px;
+  letter-spacing: -1px;
   color: #231f20;
+  margin: 0;
+  font-family: Eurostile;
+  text-shadow: 3px 0 #231f20;
 }
 
 .text-desc {
-  font-family: Neue;
+  font-weight: 500;
   font-size: 21px;
-  font-style: normal;
-  font-weight: bold;
   line-height: 30px;
-  letter-spacing: 0px;
-  text-align: left;
+  color: #000;
+  margin: 0;
+  font-family: Neue;
 }
 
 .input-contanier {
@@ -279,34 +279,29 @@
   display: inline-block;
   padding-top: 15px;
 
-  font-family: Eurostile;
-  font-size: 40px;
-  font-style: normal;
   font-weight: 850;
+  font-size: 40px;
   line-height: 43px;
-  letter-spacing: 0px;
-  text-align: left;
   color: #ff8b00;
+  margin: 0;
+  font-family: Eurostile;
 }
 .question-content {
-  font-family: Neue;
+  font-weight: 500;
   font-size: 21px;
-  font-style: normal;
-  font-weight: bold;
   line-height: 32px;
-  letter-spacing: 0px;
-  color: #000000;
+  color: #000;
+  cursor: pointer;
+  font-family: Neue;
   text-align: left;
 }
 .plus-icon {
-  font-family: Neue;
+  font-weight: 500;
   font-size: 21px;
-  font-style: normal;
-  font-weight: bold;
   line-height: 32px;
-  letter-spacing: 0px;
-  text-align: right;
-  color: #000000;
+  color: #000;
+  cursor: pointer;
+  font-family: Neue;
 }
 .question {
   display: flex;
@@ -322,16 +317,15 @@
 }
 .CommunityLeft p {
   font-family: Eurostile;
-  font-size: 82px;
-  font-style: normal;
   font-weight: 900;
-  line-height: 77px;
-  letter-spacing: 0px;
-  text-align: left;
+  font-size: 82px;
+  line-height: 76px;
   color: #231f20;
+  margin: 0;
+  text-shadow: 4px 0 #231f20;
 }
 .CommunityLeft {
-  background-image: url(~assets/imgs/communityLeftBG.png);
+  background-image: url(~assets/imgs/leftcommunityBG.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 100px 100px 100px 150px !important;
