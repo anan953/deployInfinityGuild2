@@ -333,6 +333,12 @@
   width: 100%;
 }
 
+.ImgSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media only screen and (max-width: 600px) {
   .banner {
     padding: 80px 10px 0px 10px;
@@ -354,6 +360,9 @@
   .ImgSection {
     padding: 0 !important;
     margin-bottom: 60px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .HowItWorks {
@@ -392,7 +401,7 @@
     line-height: 40px;
   }
   .leftBanner {
-    font-size: 3.5em;
+    font-size: 55px;
     line-height: 55px;
   }
   .infinityForce {
