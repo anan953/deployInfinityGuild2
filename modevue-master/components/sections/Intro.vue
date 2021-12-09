@@ -1,7 +1,7 @@
 <template>
   <v-container fluid pa-0>
     <!-- Infinity Force section -->
-    <v-row class="infinityForce">
+    <!-- <v-row class="infinityForce">
       <v-col md="6" sm="12" class="leftinfinityForce">
         <div class="infinityForceTitle leftBanner">
           PLAY-TO-EARN<br />
@@ -16,17 +16,18 @@
           <span>CONTACT US</span>
         </button>
       </v-col>
-    </v-row>
+    </v-row> -->
 
     <!-- Banner section -->
     <v-row class="banner">
       <v-col md="6" cols="12" class="leftBanner">
-        BUILD YOUR PLAY-TO-EARN GAMING GUILD</v-col
+        PLAY-TO-EARN<br />
+        GUILD <br />MANAGEMENT <br />FOR THE <br />METAVERSE.</v-col
       >
       <v-col md="6" cols="12" class="rightBanner">
-        Access a unified view of players' performance and revenue data with
-        advanced analytics, reporting tools and frictionless online transactions
-        — in one single platform.</v-col
+        Infinity Force provides P2E managers and players the world’s first
+        cross-chain software to build and grow guilds, issue automated payments
+        and manage the team online with ease.</v-col
       ><v-col md="12" cols="12" class="bannerImg">
         <div class="highlightImage"></div
       ></v-col>
@@ -53,9 +54,9 @@
     <v-row no-gutters class="HowItWorks">
       <div class="HowItWorksWrap">
         <v-row no-gutters class="HowItWorksTitle">
-          <span> >>>>> &ensp; </span>
-          <span> HOW IT WORKS </span>
-          <span>&ensp; &lt;&lt;&lt;&lt;&lt; </span>
+          <span> >>>>> </span>
+          <span> &ensp; HOW IT WORKS &ensp;</span>
+          <span> &lt;&lt;&lt;&lt;&lt; </span>
         </v-row>
 
         <v-row no-gutters>
@@ -72,7 +73,7 @@
           </v-col>
           <v-col cols="12" md="4" class="ImgSection">
             <img class="HowImg" src="~assets/imgs/icon-02.png" />
-            <p class="HowImgTitle">GUILD PERFORMANCE MANAGEMENT</p>
+            <p class="HowImgTitle">PERFORMANCE MANAGEMENT</p>
             <p class="HowImgText">
               Access real-time data, player performance monitoring and automated
               payments in just a few clicks. Infinity Force provides the most
@@ -141,7 +142,7 @@
   margin: 80px 0;
 }
 .banner {
-  height: 976px;
+  height: 1100px;
   width: 100%;
   background-image: url(~assets/imgs/bannerBG.png);
   background-repeat: no-repeat;
@@ -239,13 +240,6 @@
   height: 280px;
   width: 280px;
 }
-.ImgSection {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  padding: 30px !important;
-}
 .HowImgTitle {
   font-weight: 900;
   font-size: 42px;
@@ -264,7 +258,7 @@
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0em;
-  text-align: center;
+  text-align: left;
   color: #ffffff;
   padding: 0 20px;
 }
@@ -390,7 +384,7 @@
 }
 @media all and (max-width: 600px) {
   .HowItWorksTitle {
-    font-size: 38px;
+    font-size: 33px;
     line-height: 50px;
   }
   .HowImgTitle {
@@ -398,35 +392,35 @@
     line-height: 40px;
   }
   .leftBanner {
-    font-size: 3.5em !important;
-    line-height: 55px !important;
+    font-size: 3.5em;
+    line-height: 55px;
   }
   .infinityForce {
-    padding: 20px 0 !important;
-    background-color: #ff8b00 !important;
-    background-image: none !important;
-    height: auto !important;
+    padding: 20px 0;
+    background-color: #ff8b00;
+    background-image: none;
+    height: auto;
   }
   .IntroSectionTitle {
     font-size: 45px;
     line-height: 52px;
-    margin-bottom: 50px !important;
+    margin-bottom: 50px;
   }
   .CommunityLeft p {
-    font-size: 58px !important;
-    line-height: 51px !important;
+    font-size: 58px;
+    line-height: 51px;
   }
   .HowItWorksWrap {
-    background-image: url(~assets/imgs/HowIsWorkBGMobile.png) !important;
-    padding: 20px !important;
-    margin-left: 0 !important;
+    background-image: url(~assets/imgs/HowIsWorkBGMobile.png);
+    padding: 20px;
+    margin-left: 0;
   }
   .highlightImage {
-    height: 435px !important;
-    background-image: url(~assets/imgs/HighlighImageMobile.png) !important;
+    height: 355px;
+    background-image: url(~assets/imgs/HighlighImageMobile2.png);
   }
   .infinityForceSubtext {
-    margin: 40px 0 !important;
+    margin: 40px 0;
   }
   .CommunityText {
     font-size: 18px;
